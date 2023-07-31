@@ -1,0 +1,24 @@
+Phase 1: 
+Create a class that would represent pc parts. It should contain basic methods to retreive items name, price, colour (if applicable).
+PC part list can be found here: https://pcpartpicker.com/list/ The every separate part should have at least 3-4 methods to gather this part specific data (example: CPU - brand , speed, power usuage etc.)
+At this stage, dictionary data structures can work as Database. OOP abstraction, inheritance and encapsulation must be presented in a code base. Unit tests must be written for the methods.
+1 etapas:
+Sukurkite klasę, kuri reprezentuotų kompiuterio dalis. Jame turėtų būti pagrindiniai būdai, kaip atkurti prekių pavadinimą, kainą, spalvą (jei taikoma).
+Kompiuterio dalių sąrašą galite rasti čia: https://pcpartpicker.com/list/ Kiekviena atskira dalis turi turėti bent 3-4 metodus, kaip rinkti konkrečius 
+šios dalies duomenis (pavyzdžiui: CPU - prekės ženklas, greitis, galios naudojimas ir kt.) Šiame etape žodyno duomenų struktūros gali veikti kaip duomenų bazė.
+ OOP abstrakcija, paveldėjimas ir inkapsuliacija turi būti pateikti kodo bazėje. Metodams turi būti parašyti vienetiniai testai.
+
+
+Phase 2: Add logging to all necessary functionality to see the data flow (with logger config.).
+Add exception handling , describe your own exceptions if necessary. 
+Create functions that would update current datasets (database). 
+Add functions that would parse durrent datasets(database) by specific parameters (CPU name = 'AMD') 
+Use  List, Dict comprehentions to get parsed data.
+2 etapas: pridėkite registravimą prie visų būtinų funkcijų, kad pamatytumėte duomenų srautą (su registratoriaus konfigūracija).
+Pridėkite išimčių tvarkymą, jei reikia, aprašykite savo išimtis.
+Sukurkite funkcijas, kurios atnaujintų esamus duomenų rinkinius (duomenų bazę).
+Pridėkite funkcijų, kurios analizuotų esamus duomenų rinkinius (duomenų bazę) pagal konkrečius parametrus (procesoriaus pavadinimas = „AMD“)
+Norėdami gauti analizuotus duomenis, naudokite Sąrašo, Žodyno supratimus.
+
+
+
